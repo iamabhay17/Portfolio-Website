@@ -21,6 +21,7 @@ body{
 max-width: 600px;
 margin: auto;
 padding: 0.5rem 1rem;
+text-align: center;
 
 }
 
@@ -99,7 +100,7 @@ padding: 0rem 0.5rem;
 
 .hero .hero-image
 {
-    max-width: 600px;
+    max-width: 80%;
     display: block;
     margin: auto;
 }
@@ -144,11 +145,11 @@ padding: 0rem 0.5rem;
 
 .footer-image
 {
-    max-width: 40px;
+    max-width: 30px;
 }
 .footer-heading
 {
-    font-size: 22px;
+    font-size: 10px;
 }
 
 
@@ -161,3 +162,7 @@ padding: 0rem 0.5rem;
     
 }
 
+.footer-image:hover
+{
+    background-color: var(--secondary-color);
+}
