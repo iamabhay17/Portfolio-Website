@@ -43,7 +43,7 @@ color: white;
 }
 
 .secondary-link{
-    color: var(--primary-color);
+    color: var(--secondary-color);
     border-radius: 0.5rem;
     border-color: var(--secondary-color);
     border: 1px solid;
@@ -100,7 +100,7 @@ padding: 0rem 0.5rem;
 
 .hero .hero-image
 {
-    max-width: 80%;
+    max-width: 50%;
     display: block;
     margin: auto;
 }
@@ -114,7 +114,8 @@ padding: 0rem 0.5rem;
 /** section css **/
 
 .section{
-    padding: 2rem 0rem;
+    padding: 1rem 0rem;
+    padding-bottom: 2rem;
 }
 
 .section h2{
@@ -123,12 +124,15 @@ padding: 0rem 0.5rem;
 
 .center-container h2{
     color: var(--secondary-color);
+    padding: 1rem 1rem;
+    text-align: center;
 }
 
 .off-white
 {
     background-color: var(--offwhite);
     border-radius: 1rem;
+    padding-left: 0rem;
 }
 
 /** footers css**/
