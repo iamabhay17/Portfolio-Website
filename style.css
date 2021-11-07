@@ -149,7 +149,7 @@ padding: 0rem 0.5rem;
 
 .footer-image
 {
-    max-width: 30px;
+    max-width: 40px;
 }
 .footer-heading
 {
@@ -166,7 +166,3 @@ padding: 0rem 0.5rem;
     
 }
 
-.footer-image:hover
-{
-    background-color: var(--secondary-color);
-}
